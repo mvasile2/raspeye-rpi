@@ -2,10 +2,10 @@ var sys = require('sys'),
     request = require('request'),
     fs = require('fs'),
     exec = require('child_process').exec,
-    api = 'http://link.to.api/',
+    api = '192.168.1.5/',
     auth = {
-      username: 'demo',
-      password: 'demo'
+      username: 'pi',
+      password: 'raspberry'
     },
     takePicture,
     uploadPicture,
